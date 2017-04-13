@@ -15,4 +15,4 @@
 	url = https://github.com/Khan/khan-MathJax.git
 [submodule "math-input"]
 	path = math-input
-	url = https://github.com/ClassJourney/math-input.git
+	url = git@github.com:ClassJourney/math-input.git
