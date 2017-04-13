@@ -16,6 +16,10 @@ module.exports = [
         __EDITOR__ && require("./widgets/numeric-input-editor.jsx"),
     ],
     [
+        require("./widgets/text-input.jsx"),
+        __EDITOR__ && require("./widgets/text-input-editor.jsx"),
+    ],
+    [
         require("./widgets/expression.jsx"),
         __EDITOR__ && require("./widgets/expression-editor.jsx"),
     ],
