@@ -20,6 +20,7 @@ var TextInput = React.createClass({
         return <input
             ref="input"
             value={this.props.value || ""}
+            className="perseus-text-input"
             onChange={this.changeValue} />;
     },
 
