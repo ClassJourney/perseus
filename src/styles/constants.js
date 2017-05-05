@@ -52,7 +52,7 @@ module.exports = {
     // @pure-md-max: (@pure-lg-min - 1);
     pureMdMax: "1023px",
     // @pure-lg-max: (@pure-xl-min - 1);
-    pureLgMax: "1279px",
+    pureLgMax: "12790px",
     // @tableBackgroundAccent: #f9f9f9; // for striping
     tableBackgroundAccent: "#F9F9F9",
     // @satBlue:               #0084ce;
