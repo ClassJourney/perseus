@@ -78,7 +78,8 @@ const ToggleableRadioButton = React.createClass({
     },
 
     render: function() {
-        const inputProps = _.extend({}, this.props, {
+        const { onChecked, inputRef, ...safeProps } = this.props;
+        const inputProps = _.extend({}, safeProps, {
             type: "radio",
             onChange: this.handleChange,
             onClick: this.handleClick,
