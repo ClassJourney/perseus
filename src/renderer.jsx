@@ -919,12 +919,7 @@ var Renderer = React.createClass({
                         className="perseus-block-math-inner"
                         style={{...innerStyle, ...horizontalPadding}}
                     >
-                        <Zoomable
-                            readyToMeasureDeferred={deferred}
-                            computeChildBounds={computeMathBounds}
-                        >
-                            {content}
-                        </Zoomable>
+                        {content}
                     </div>
                 </div>;
             } else {
