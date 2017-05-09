@@ -23,7 +23,6 @@ var Widgets = require("./widgets.js");
 var Util = require("./util.js");
 var ApiOptionsProps = require("./mixins/api-options-props.js");
 var ApiClassNames = require("./perseus-api.jsx").ClassNames;
-var Zoomable = require("./components/zoomable.jsx");
 var Deferred = require("./deferred.js");
 var preprocessTex = require("./util/katex-preprocess.js");
 
@@ -1044,7 +1043,7 @@ var Renderer = React.createClass({
 
             const wrappedOutput =
                 <div style={{...innerStyle, overflowX: 'auto'}}>
-                    <Zoomable animateHeight={true}>{output}</Zoomable>
+                    {output}
                 </div>;
 
             // TODO(benkomalo): how should we deal with tappable items inside

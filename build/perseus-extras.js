@@ -23,7 +23,7 @@ webpackJsonpPerseus([1],[
 	/* globals __EDITOR__ */
 	// As new widgets get added here, please also make sure they get added in
 	// webapp perseus/traversal.py so they can be properly translated.
-	module.exports = [ [ __webpack_require__(45), false ], [ __webpack_require__(46), false ], [ __webpack_require__(47), false ], [ __webpack_require__(48), false ], [ __webpack_require__(49), false ], [ __webpack_require__(50), false ], [ __webpack_require__(51), false ], [ __webpack_require__(52), false ], [ __webpack_require__(53), false ], [ __webpack_require__(54), false ], [ __webpack_require__(55), false ], [ __webpack_require__(56), false ], [ __webpack_require__(57), false ], [ __webpack_require__(58), false ], [ __webpack_require__(59), false ], [ __webpack_require__(60), false ], [ __webpack_require__(61), false ], [ __webpack_require__(62), false ], [ __webpack_require__(63), false ], [ __webpack_require__(64), false ], [ __webpack_require__(65), false ], [ __webpack_require__(66), false ], [ __webpack_require__(67), false ], [ __webpack_require__(68), false ], [ __webpack_require__(69), false ], [ __webpack_require__(70), false ], [ __webpack_require__(71), false ], [ __webpack_require__(72), false ], [ __webpack_require__(73), false ], [ __webpack_require__(74), false ], [ __webpack_require__(75), false ], // These widgets are only used when testing things, so remove them in the
+	module.exports = [ [ __webpack_require__(44), false ], [ __webpack_require__(45), false ], [ __webpack_require__(46), false ], [ __webpack_require__(47), false ], [ __webpack_require__(48), false ], [ __webpack_require__(49), false ], [ __webpack_require__(50), false ], [ __webpack_require__(51), false ], [ __webpack_require__(52), false ], [ __webpack_require__(53), false ], [ __webpack_require__(54), false ], [ __webpack_require__(55), false ], [ __webpack_require__(56), false ], [ __webpack_require__(57), false ], [ __webpack_require__(58), false ], [ __webpack_require__(59), false ], [ __webpack_require__(60), false ], [ __webpack_require__(61), false ], [ __webpack_require__(62), false ], [ __webpack_require__(63), false ], [ __webpack_require__(64), false ], [ __webpack_require__(65), false ], [ __webpack_require__(66), false ], [ __webpack_require__(67), false ], [ __webpack_require__(68), false ], [ __webpack_require__(69), false ], [ __webpack_require__(70), false ], [ __webpack_require__(71), false ], [ __webpack_require__(72), false ], [ __webpack_require__(73), false ], [ __webpack_require__(74), false ], // These widgets are only used when testing things, so remove them in the
 	// non-editor bundle.
 	false, false, false ];
 
@@ -55,8 +55,7 @@ webpackJsonpPerseus([1],[
 /* 41 */,
 /* 42 */,
 /* 43 */,
-/* 44 */,
-/* 45 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -80,27 +79,27 @@ webpackJsonpPerseus([1],[
 
 	var classNames = __webpack_require__(13);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var WidgetJsonifyDeprecated = __webpack_require__(104);
+	var WidgetJsonifyDeprecated = __webpack_require__(103);
 
 	var _ = __webpack_require__(10);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var _require2 = __webpack_require__(90), iconCircle = _require2.iconCircle, iconCircleThin = _require2.iconCircleThin;
+	var _require2 = __webpack_require__(89), iconCircle = _require2.iconCircle, iconCircleThin = _require2.iconCircleThin;
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
 	var Renderer = __webpack_require__(8);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var mediaQueries = __webpack_require__(36);
+	var mediaQueries = __webpack_require__(35);
 
-	var sharedStyles = __webpack_require__(37);
+	var sharedStyles = __webpack_require__(36);
 
 	var Categorizer = React.createClass({
 	    displayName: "Categorizer",
@@ -280,7 +279,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 46 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -303,9 +302,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var updateQueryString = __webpack_require__(17).updateQueryString;
+	var updateQueryString = __webpack_require__(18).updateQueryString;
 
 	var PADDING_WIDTH = 2;
 
@@ -449,7 +448,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 47 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -475,17 +474,17 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
-	var styleConstants = __webpack_require__(38);
+	var styleConstants = __webpack_require__(37);
 
-	var _require2 = __webpack_require__(90), iconDropdownArrow = _require2.iconDropdownArrow;
+	var _require2 = __webpack_require__(89), iconDropdownArrow = _require2.iconDropdownArrow;
 
-	var captureScratchpadTouchStart = __webpack_require__(17).captureScratchpadTouchStart;
+	var captureScratchpadTouchStart = __webpack_require__(18).captureScratchpadTouchStart;
 
 	var dropdownArrowSize = 24;
 
@@ -618,7 +617,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 48 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -642,15 +641,15 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var PerseusApi = __webpack_require__(18);
+	var PerseusApi = __webpack_require__(17);
 
 	var Renderer = __webpack_require__(8);
 
-	var mediaQueries = __webpack_require__(36);
+	var mediaQueries = __webpack_require__(35);
 
-	var styleConstants = __webpack_require__(38);
+	var styleConstants = __webpack_require__(37);
 
 	var defaultExplanationProps = {
 	    showPrompt: "Explain",
@@ -848,7 +847,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 49 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -868,41 +867,41 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Interactive2 = __webpack_require__(105);
+	var Interactive2 = __webpack_require__(104);
 
 	var SvgImage = __webpack_require__(34);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var ButtonGroup = __webpack_require__(106);
+	var ButtonGroup = __webpack_require__(105);
 
 	/* Graphie and relevant components. */
-	var Graphie = __webpack_require__(92);
+	var Graphie = __webpack_require__(91);
 
 	var MovablePoint = Graphie.MovablePoint;
 
 	var MovableLine = Graphie.MovableLine;
 
-	var WrappedLine = __webpack_require__(107);
+	var WrappedLine = __webpack_require__(106);
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var kvector = __webpack_require__(134).vector;
+	var kvector = __webpack_require__(133).vector;
 
-	var kpoint = __webpack_require__(134).point;
+	var kpoint = __webpack_require__(133).point;
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
-	var _require = __webpack_require__(78), containerSizeClassPropType = _require.containerSizeClassPropType;
+	var _require = __webpack_require__(77), containerSizeClassPropType = _require.containerSizeClassPropType;
 
-	var _require2 = __webpack_require__(38), interactiveSizes = _require2.interactiveSizes;
+	var _require2 = __webpack_require__(37), interactiveSizes = _require2.interactiveSizes;
 
-	var _require3 = __webpack_require__(78), getInteractiveBoxFromSizeClass = _require3.getInteractiveBoxFromSizeClass;
+	var _require3 = __webpack_require__(77), getInteractiveBoxFromSizeClass = _require3.getInteractiveBoxFromSizeClass;
 
 	/* Mixins. */
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var _require4 = __webpack_require__(123), GrapherUtil = _require4.GrapherUtil, typeToButton = _require4.typeToButton, functionForType = _require4.functionForType, DEFAULT_GRAPHER_PROPS = _require4.DEFAULT_GRAPHER_PROPS;
+	var _require4 = __webpack_require__(122), GrapherUtil = _require4.GrapherUtil, typeToButton = _require4.typeToButton, functionForType = _require4.functionForType, DEFAULT_GRAPHER_PROPS = _require4.DEFAULT_GRAPHER_PROPS;
 
 	function isFlipped(newCoord, oldCoord, line) {
 	    var CCW = function CCW(a, b, c) {
@@ -1299,7 +1298,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 50 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1322,19 +1321,19 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var _require = __webpack_require__(90), iconOk = _require.iconOk, iconRemove = _require.iconRemove;
+	var _require = __webpack_require__(89), iconOk = _require.iconOk, iconRemove = _require.iconRemove;
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
 	var Renderer = __webpack_require__(8);
 
-	var GradedGroupAnswerBar = __webpack_require__(109);
+	var GradedGroupAnswerBar = __webpack_require__(108);
 
-	var _require2 = __webpack_require__(38), gray76 = _require2.gray76, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin, tableBackgroundAccent = _require2.tableBackgroundAccent, kaGreen = _require2.kaGreen;
+	var _require2 = __webpack_require__(37), gray76 = _require2.gray76, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin, tableBackgroundAccent = _require2.tableBackgroundAccent, kaGreen = _require2.kaGreen;
 
 	var _require3 = __webpack_require__(14), StyleSheet = _require3.StyleSheet, css = _require3.css;
 
@@ -1620,7 +1619,7 @@ webpackJsonpPerseus([1],[
 	});
 
 /***/ },
-/* 51 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1642,13 +1641,13 @@ webpackJsonpPerseus([1],[
 
 	var _require = __webpack_require__(14), StyleSheet = _require.StyleSheet, css = _require.css;
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var GradedGroup = __webpack_require__(50).widget;
+	var GradedGroup = __webpack_require__(49).widget;
 
-	var _require2 = __webpack_require__(38), grayLight = _require2.grayLight, gray76 = _require2.gray76, tableBackgroundAccent = _require2.tableBackgroundAccent, kaGreen = _require2.kaGreen, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin;
+	var _require2 = __webpack_require__(37), grayLight = _require2.grayLight, gray76 = _require2.gray76, tableBackgroundAccent = _require2.tableBackgroundAccent, kaGreen = _require2.kaGreen, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin;
 
 	var Indicators = React.createClass({
 	    displayName: "Indicators",
@@ -1823,7 +1822,7 @@ webpackJsonpPerseus([1],[
 	});
 
 /***/ },
-/* 52 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1845,9 +1844,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
 	var Renderer = __webpack_require__(8);
 
@@ -1987,7 +1986,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 53 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2016,11 +2015,11 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var WidgetJsonifyDeprecated = __webpack_require__(104);
+	var WidgetJsonifyDeprecated = __webpack_require__(103);
 
-	var updateQueryString = __webpack_require__(17).updateQueryString;
+	var updateQueryString = __webpack_require__(18).updateQueryString;
 
 	/* This renders the iframe and handles validation via window.postMessage */
 	var Iframe = React.createClass({
@@ -2153,7 +2152,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 54 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2183,13 +2182,13 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var _require2 = __webpack_require__(38), baseUnitPx = _require2.baseUnitPx;
+	var _require2 = __webpack_require__(37), baseUnitPx = _require2.baseUnitPx;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var mediaQueries = __webpack_require__(36);
+	var mediaQueries = __webpack_require__(35);
 
 	var Renderer = __webpack_require__(8);
 
@@ -2425,7 +2424,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 55 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2445,9 +2444,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var Graphie = __webpack_require__(92);
+	var Graphie = __webpack_require__(91);
 
 	var Label = Graphie.Label;
 
@@ -2465,7 +2464,7 @@ webpackJsonpPerseus([1],[
 
 	var Rect = Graphie.Rect;
 
-	var kvector = __webpack_require__(134).vector;
+	var kvector = __webpack_require__(133).vector;
 
 	// Memoize KAS parsing
 	var KAShashFunc = function KAShashFunc(expr, options) {
@@ -2875,7 +2874,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 56 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2896,29 +2895,29 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Graph = __webpack_require__(110);
+	var Graph = __webpack_require__(109);
 
-	var InfoTip = __webpack_require__(111);
+	var InfoTip = __webpack_require__(110);
 
-	var Interactive2 = __webpack_require__(105);
+	var Interactive2 = __webpack_require__(104);
 
-	var NumberInput = __webpack_require__(112);
+	var NumberInput = __webpack_require__(111);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var kpoint = __webpack_require__(134).point;
+	var kpoint = __webpack_require__(133).point;
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
-	var GraphUtils = __webpack_require__(113);
+	var GraphUtils = __webpack_require__(112);
 
-	var _require = __webpack_require__(38), interactiveSizes = _require.interactiveSizes;
+	var _require = __webpack_require__(37), interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(78), containerSizeClassPropType = _require2.containerSizeClassPropType, getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
+	var _require2 = __webpack_require__(77), containerSizeClassPropType = _require2.containerSizeClassPropType, getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
-	var WrappedLine = __webpack_require__(107);
+	var WrappedLine = __webpack_require__(106);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
@@ -4604,7 +4603,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 57 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -4624,9 +4623,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var WidgetJsonifyDeprecated = __webpack_require__(104);
+	var WidgetJsonifyDeprecated = __webpack_require__(103);
 
 	var MAX_SIZE = 8;
 
@@ -4909,7 +4908,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 58 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -4933,7 +4932,7 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var NumberInput = __webpack_require__(112);
+	var NumberInput = __webpack_require__(111);
 
 	var Renderer = __webpack_require__(8);
 
@@ -4941,17 +4940,17 @@ webpackJsonpPerseus([1],[
 
 	var MathOutput = __webpack_require__(115);
 
-	var SimpleKeypadInput = __webpack_require__(81);
+	var SimpleKeypadInput = __webpack_require__(80);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
 	var KhanAnswerTypes = __webpack_require__(76);
 
-	var keypadElementPropType = __webpack_require__(79).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(78).propTypes.keypadElementPropType;
 
 	var assert = __webpack_require__(116).assert;
 
-	var stringArrayOfSize = __webpack_require__(17).stringArrayOfSize;
+	var stringArrayOfSize = __webpack_require__(18).stringArrayOfSize;
 
 	// We store three sets of dimensions for the brackets, for our three types of
 	// inputs, which vary in formatting: (1) the "static" inputs rendered for the
@@ -5340,7 +5339,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 59 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5356,13 +5355,13 @@ webpackJsonpPerseus([1],[
 
 	var Renderer = __webpack_require__(8);
 
-	var Sortable = __webpack_require__(117);
+	var Sortable = __webpack_require__(113);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var shuffle = __webpack_require__(17).shuffle;
+	var shuffle = __webpack_require__(18).shuffle;
 
-	var seededRNG = __webpack_require__(17).seededRNG;
+	var seededRNG = __webpack_require__(18).seededRNG;
 
 	var HACKY_CSS_CLASSNAME = "perseus-widget-matcher";
 
@@ -5522,7 +5521,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 60 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5536,9 +5535,9 @@ webpackJsonpPerseus([1],[
 
 	var _2 = __webpack_require__(10);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var GraphUtils = __webpack_require__(113);
+	var GraphUtils = __webpack_require__(112);
 
 	var defaultImage = {
 	    url: null,
@@ -5679,7 +5678,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 61 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5689,11 +5688,11 @@ webpackJsonpPerseus([1],[
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(11);
 
-	var draw = __webpack_require__(124);
+	var draw = __webpack_require__(123);
 
-	var _require = __webpack_require__(125), layout = _require.layout;
+	var _require = __webpack_require__(124), layout = _require.layout;
 
-	var SmilesParser = __webpack_require__(126);
+	var SmilesParser = __webpack_require__(125);
 
 	var parse = SmilesParser.parse;
 
@@ -5842,7 +5841,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 62 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5865,29 +5864,29 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var NumberInput = __webpack_require__(112);
+	var NumberInput = __webpack_require__(111);
 
 	var MathOutput = __webpack_require__(115);
 
-	var SimpleKeypadInput = __webpack_require__(81);
+	var SimpleKeypadInput = __webpack_require__(80);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var keypadElementPropType = __webpack_require__(79).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(78).propTypes.keypadElementPropType;
 
-	var Graphie = __webpack_require__(92);
+	var Graphie = __webpack_require__(91);
 
 	var MovablePoint = Graphie.MovablePoint;
 
 	var Line = Graphie.Line;
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var KhanMath = __webpack_require__(84);
+	var KhanMath = __webpack_require__(83);
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
 	var bound = function bound(x, gt, lt) {
 	    return Math.min(Math.max(x, gt), lt);
@@ -6381,7 +6380,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 63 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6397,9 +6396,9 @@ webpackJsonpPerseus([1],[
 
 	var Renderer = __webpack_require__(8);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
 	var PlaceholderCard = React.createClass({
 	    displayName: "PlaceholderCard",
@@ -6809,7 +6808,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 64 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6859,11 +6858,11 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
 	var Renderer = __webpack_require__(8);
 
-	var PassageMarkdown = __webpack_require__(127);
+	var PassageMarkdown = __webpack_require__(126);
 
 	// A fake paragraph to measure the line height of the passage. In CSS we always
 	// set the line height to 22 pixels, but when using the browser zoom feature,
@@ -7617,8 +7616,8 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 65 */,
-/* 66 */
+/* 64 */,
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -7638,9 +7637,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var WidgetJsonifyDeprecated = __webpack_require__(104);
+	var WidgetJsonifyDeprecated = __webpack_require__(103);
 
 	var Renderer = __webpack_require__(8);
 
@@ -7700,7 +7699,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 67 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -7714,19 +7713,19 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
-	var deepEq = __webpack_require__(17).deepEq;
+	var deepEq = __webpack_require__(18).deepEq;
 
-	var KhanMath = __webpack_require__(84);
+	var KhanMath = __webpack_require__(83);
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
-	var GraphUtils = __webpack_require__(113);
+	var GraphUtils = __webpack_require__(112);
 
-	var Interactive2 = __webpack_require__(105);
+	var Interactive2 = __webpack_require__(104);
 
-	var WrappedLine = __webpack_require__(107);
+	var WrappedLine = __webpack_require__(106);
 
 	var BAR = "bar", LINE = "line", PIC = "pic", HISTOGRAM = "histogram", DOTPLOT = "dotplot";
 
@@ -8417,14 +8416,14 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 68 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 
 	var React = __webpack_require__(11);
 
-	var Molecule = __webpack_require__(61).molecule;
+	var Molecule = __webpack_require__(60).molecule;
 
 	var Separator = React.createClass({
 	    displayName: "Separator",
@@ -8545,7 +8544,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 69 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -8565,17 +8564,17 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var _require = __webpack_require__(90), iconOk = _require.iconOk;
+	var _require = __webpack_require__(89), iconOk = _require.iconOk;
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
 	var Renderer = __webpack_require__(8);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
 	var Sequence = React.createClass({
 	    displayName: "Sequence",
@@ -8680,7 +8679,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 70 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -8697,7 +8696,7 @@ webpackJsonpPerseus([1],[
 	/* eslint-disable comma-dangle, indent, no-unused-vars, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp, space-unary-ops */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	/* globals $_, i18n */
-	var InfoTip = __webpack_require__(111);
+	var InfoTip = __webpack_require__(110);
 
 	var React = __webpack_require__(11);
 
@@ -8705,29 +8704,29 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
 	var assert = __webpack_require__(116).assert;
 
-	var Graphie = __webpack_require__(92);
+	var Graphie = __webpack_require__(91);
 
 	var Path = Graphie.Path, Arc = Graphie.Arc, Circle = Graphie.Circle, Label = Graphie.Label, Line = Graphie.Line, MovablePoint = Graphie.MovablePoint, MovableLine = Graphie.MovableLine;
 
-	var NumberInput = __webpack_require__(112);
+	var NumberInput = __webpack_require__(111);
 
 	var MathOutput = __webpack_require__(115);
 
-	var seededRNG = __webpack_require__(17).seededRNG;
+	var seededRNG = __webpack_require__(18).seededRNG;
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
-	var KhanMath = __webpack_require__(84);
+	var KhanMath = __webpack_require__(83);
 
 	var defaultBoxSize = 400;
 
@@ -9269,7 +9268,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 71 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -9281,11 +9280,11 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Sortable = __webpack_require__(117);
+	var Sortable = __webpack_require__(113);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var shuffle = __webpack_require__(17).shuffle;
+	var shuffle = __webpack_require__(18).shuffle;
 
 	var HORIZONTAL = "horizontal", VERTICAL = "vertical";
 
@@ -9356,7 +9355,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 72 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -9372,15 +9371,15 @@ webpackJsonpPerseus([1],[
 
 	var MathOutput = __webpack_require__(115);
 
-	var SimpleKeypadInput = __webpack_require__(81);
+	var SimpleKeypadInput = __webpack_require__(80);
 
 	var Renderer = __webpack_require__(8);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var keypadElementPropType = __webpack_require__(79).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(78).propTypes.keypadElementPropType;
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
 	var KhanAnswerTypes = __webpack_require__(76);
 
@@ -9650,7 +9649,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 73 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -9673,21 +9672,21 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Graph = __webpack_require__(110);
+	var Graph = __webpack_require__(109);
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
-	var NumberInput = __webpack_require__(112);
+	var NumberInput = __webpack_require__(111);
 
 	var MathOutput = __webpack_require__(115);
 
-	var TeX = __webpack_require__(44);
+	var TeX = __webpack_require__(43);
 
-	var SimpleKeypadInput = __webpack_require__(81);
+	var SimpleKeypadInput = __webpack_require__(80);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var keypadElementPropType = __webpack_require__(79).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(78).propTypes.keypadElementPropType;
 
 	var ROTATE_SNAP_DEGREES = 15;
 
@@ -9701,27 +9700,27 @@ webpackJsonpPerseus([1],[
 
 	var REFLECT_BUTTON_SIZE = 1;
 
-	var _require = __webpack_require__(90), iconPlus = _require.iconPlus, iconUndo = _require.iconUndo;
+	var _require = __webpack_require__(89), iconPlus = _require.iconPlus, iconUndo = _require.iconUndo;
 
-	var deepEq = __webpack_require__(17).deepEq;
+	var deepEq = __webpack_require__(18).deepEq;
 
-	var getGridStep = __webpack_require__(17).getGridStep;
+	var getGridStep = __webpack_require__(18).getGridStep;
 
-	var captureScratchpadTouchStart = __webpack_require__(17).captureScratchpadTouchStart;
+	var captureScratchpadTouchStart = __webpack_require__(18).captureScratchpadTouchStart;
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var kvector = __webpack_require__(134).vector;
+	var kvector = __webpack_require__(133).vector;
 
-	var kpoint = __webpack_require__(134).point;
+	var kpoint = __webpack_require__(133).point;
 
-	var kray = __webpack_require__(134).ray;
+	var kray = __webpack_require__(133).ray;
 
-	var kline = __webpack_require__(134).line;
+	var kline = __webpack_require__(133).line;
 
-	var KhanMath = __webpack_require__(84);
+	var KhanMath = __webpack_require__(83);
 
-	var KhanColors = __webpack_require__(108);
+	var KhanColors = __webpack_require__(107);
 
 	var assert = __webpack_require__(116).assert;
 
@@ -11638,7 +11637,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 74 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -11658,7 +11657,7 @@ webpackJsonpPerseus([1],[
 	// terms of a certain type.
 	// TODO(joel): Allow sigfigs within a range rather than an exact expected
 	// value?
-	var lens = __webpack_require__(103);
+	var lens = __webpack_require__(102);
 
 	var React = __webpack_require__(11);
 
@@ -11666,15 +11665,15 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
 	var MathOutput = __webpack_require__(115);
 
-	var _require = __webpack_require__(118), SignificantFigures = _require.SignificantFigures, displaySigFigs = _require.displaySigFigs;
+	var _require = __webpack_require__(117), SignificantFigures = _require.SignificantFigures, displaySigFigs = _require.displaySigFigs;
 
 	var ALL = "all";
 
@@ -11884,7 +11883,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 75 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -11907,9 +11906,9 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Changeable = __webpack_require__(85);
+	var Changeable = __webpack_require__(84);
 
-	var FixedToResponsive = __webpack_require__(91);
+	var FixedToResponsive = __webpack_require__(90);
 
 	// Current default is 720p, based on the typical videos we upload currently
 	var DEFAULT_WIDTH = 1280;
@@ -11992,6 +11991,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
+/* 75 */,
 /* 76 */,
 /* 77 */,
 /* 78 */,
@@ -12021,8 +12021,7 @@ webpackJsonpPerseus([1],[
 /* 102 */,
 /* 103 */,
 /* 104 */,
-/* 105 */,
-/* 106 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12049,7 +12048,7 @@ webpackJsonpPerseus([1],[
 
 	var ReactDOM = __webpack_require__(12);
 
-	var styles = __webpack_require__(144);
+	var styles = __webpack_require__(142);
 
 	var css = __webpack_require__(14).css;
 
@@ -12106,9 +12105,9 @@ webpackJsonpPerseus([1],[
 	module.exports = ButtonGroup;
 
 /***/ },
+/* 106 */,
 /* 107 */,
-/* 108 */,
-/* 109 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12127,13 +12126,13 @@ webpackJsonpPerseus([1],[
 	 */
 	var React = __webpack_require__(11);
 
-	var ApiOptions = __webpack_require__(18).Options;
+	var ApiOptions = __webpack_require__(17).Options;
 
-	var InlineIcon = __webpack_require__(87);
+	var InlineIcon = __webpack_require__(86);
 
-	var _require = __webpack_require__(90), iconStar = _require.iconStar, iconTryAgain = _require.iconTryAgain;
+	var _require = __webpack_require__(89), iconStar = _require.iconStar, iconTryAgain = _require.iconTryAgain;
 
-	var _require2 = __webpack_require__(38), boldFontFamily = _require2.boldFontFamily, gray68 = _require2.gray68, gray76 = _require2.gray76, gray85 = _require2.gray85, gray95 = _require2.gray95, kaGreen = _require2.kaGreen, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin;
+	var _require2 = __webpack_require__(37), boldFontFamily = _require2.boldFontFamily, gray68 = _require2.gray68, gray76 = _require2.gray76, gray85 = _require2.gray85, gray95 = _require2.gray95, kaGreen = _require2.kaGreen, phoneMargin = _require2.phoneMargin, negativePhoneMargin = _require2.negativePhoneMargin;
 
 	var ANSWER_BAR_STATES = {
 	    // Initial state before the question is answerable.  The user must complete
@@ -12272,7 +12271,7 @@ webpackJsonpPerseus([1],[
 	module.exports = GradedGroupAnswerBar;
 
 /***/ },
-/* 110 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12286,11 +12285,11 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var GraphUtils = __webpack_require__(113);
+	var GraphUtils = __webpack_require__(112);
 
-	var _require = __webpack_require__(38), interactiveSizes = _require.interactiveSizes;
+	var _require = __webpack_require__(37), interactiveSizes = _require.interactiveSizes;
 
 	var SvgImage = __webpack_require__(34);
 
@@ -12569,7 +12568,7 @@ webpackJsonpPerseus([1],[
 	module.exports = Graph;
 
 /***/ },
-/* 111 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12582,7 +12581,7 @@ webpackJsonpPerseus([1],[
 	 */
 	var React = __webpack_require__(11);
 
-	var ReactComponentsInfoTip = __webpack_require__(145);
+	var ReactComponentsInfoTip = __webpack_require__(144);
 
 	var InfoTip = React.createClass({
 	    displayName: "InfoTip",
@@ -12605,7 +12604,7 @@ webpackJsonpPerseus([1],[
 	module.exports = InfoTip;
 
 /***/ },
-/* 112 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12629,13 +12628,13 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var firstNumericalParse = __webpack_require__(17).firstNumericalParse;
+	var firstNumericalParse = __webpack_require__(18).firstNumericalParse;
 
-	var captureScratchpadTouchStart = __webpack_require__(17).captureScratchpadTouchStart;
+	var captureScratchpadTouchStart = __webpack_require__(18).captureScratchpadTouchStart;
 
-	var knumber = __webpack_require__(134).number;
+	var knumber = __webpack_require__(133).number;
 
-	var KhanMath = __webpack_require__(84);
+	var KhanMath = __webpack_require__(83);
 
 	var toNumericString = KhanMath.toNumericString;
 
@@ -12790,11 +12789,8 @@ webpackJsonpPerseus([1],[
 	module.exports = NumberInput;
 
 /***/ },
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */
+/* 112 */,
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12810,11 +12806,11 @@ webpackJsonpPerseus([1],[
 
 	var _ = __webpack_require__(10);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
 	var Renderer = __webpack_require__(8);
 
-	var ApiClassNames = __webpack_require__(18).ClassNames;
+	var ApiClassNames = __webpack_require__(17).ClassNames;
 
 	var HORIZONTAL = "horizontal";
 
@@ -13278,7 +13274,10 @@ webpackJsonpPerseus([1],[
 	module.exports = Sortable;
 
 /***/ },
-/* 118 */
+/* 114 */,
+/* 115 */,
+/* 116 */,
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -13681,11 +13680,11 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
+/* 118 */,
 /* 119 */,
 /* 120 */,
 /* 121 */,
-/* 122 */,
-/* 123 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -13695,13 +13694,13 @@ webpackJsonpPerseus([1],[
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var _ = __webpack_require__(10);
 
-	var Util = __webpack_require__(17);
+	var Util = __webpack_require__(18);
 
-	var Graphie = __webpack_require__(92);
+	var Graphie = __webpack_require__(91);
 
 	var Plot = Graphie.Plot;
 
-	var kpoint = __webpack_require__(134).point;
+	var kpoint = __webpack_require__(133).point;
 
 	var DEFAULT_BACKGROUND_IMAGE = {
 	    url: null
@@ -14196,7 +14195,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 124 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -14370,7 +14369,7 @@ webpackJsonpPerseus([1],[
 	module.exports = draw;
 
 /***/ },
-/* 125 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -14683,7 +14682,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 126 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -14924,7 +14923,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 127 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -14943,7 +14942,7 @@ webpackJsonpPerseus([1],[
 	/* globals $_ */
 	var React = __webpack_require__(11);
 
-	var SimpleMarkdown = __webpack_require__(120);
+	var SimpleMarkdown = __webpack_require__(119);
 
 	var _ = __webpack_require__(10);
 
@@ -15265,6 +15264,7 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
+/* 127 */,
 /* 128 */,
 /* 129 */,
 /* 130 */,
@@ -15279,9 +15279,7 @@ webpackJsonpPerseus([1],[
 /* 139 */,
 /* 140 */,
 /* 141 */,
-/* 142 */,
-/* 143 */,
-/* 144 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -15325,7 +15323,8 @@ webpackJsonpPerseus([1],[
 	};
 
 /***/ },
-/* 145 */
+/* 143 */,
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
