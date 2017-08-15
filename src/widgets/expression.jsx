@@ -127,7 +127,22 @@ var Expression = React.createClass({
     },
 
     render: function() {
-        if (this.props.apiOptions.customKeypad) {
+        if (this.props.apiOptions.staticRender) {
+            // To make things slightly easier, we just use an InputWithExamples
+            // component to handle the static rendering, which is the same
+            // component used by InputNumber and NumericInput
+            return <InputWithExamples
+                ref="input"
+                value={this.props.value}
+                type={"tex"}
+                examples={[]}
+                shouldShowExamples={false}
+                onChange={this.changeAndTrack}
+                onFocus={this._handleFocus}
+                onBlur={this._handleBlur}
+                id={this.props.widgetId}
+            />;
+        } else if (this.props.apiOptions.customKeypad) {
             return <KeypadInput
                 ref="input"
                 value={this.props.value}
@@ -143,21 +158,6 @@ var Expression = React.createClass({
                     );
                 }}
                 onBlur={this._handleBlur}
-            />;
-        } else if (this.props.apiOptions.staticRender) {
-            // To make things slightly easier, we just use an InputWithExamples
-            // component to handle the static rendering, which is the same
-            // component used by InputNumber and NumericInput
-            return <InputWithExamples
-                ref="input"
-                value={this.props.value}
-                type={"tex"}
-                examples={[]}
-                shouldShowExamples={false}
-                onChange={this.changeAndTrack}
-                onFocus={this._handleFocus}
-                onBlur={this._handleBlur}
-                id={this.props.widgetId}
             />;
         } else {
             // TODO(alex): Style this tooltip to be more consistent with other

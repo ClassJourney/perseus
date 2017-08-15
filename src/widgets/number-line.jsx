@@ -554,10 +554,10 @@ var NumberLine = React.createClass({
         var tickCtrl;
         if (this.props.isTickCtrl) {
             var Input;
-            if (this.props.apiOptions.customKeypad) {
-                Input = SimpleKeypadInput;
-            } else if (this.props.apiOptions.staticRender) {
+            if (this.props.apiOptions.staticRender) {
                 Input = MathOutput;
+            } else if (this.props.apiOptions.customKeypad) {
+                Input = SimpleKeypadInput;
             } else {
                 Input = NumberInput;
             }

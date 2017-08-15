@@ -74,7 +74,7 @@ var NumericInput = React.createClass({
     },
 
     render: function() {
-        if (this.props.apiOptions.customKeypad) {
+        if (this.props.apiOptions.customKeypad && !this.props.apiOptions.staticRender) {
             // TODO(charlie): Support "Review Mode".
             return <SimpleKeypadInput
                 ref="input"
