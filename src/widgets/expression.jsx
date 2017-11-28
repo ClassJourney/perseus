@@ -516,7 +516,7 @@ var propUpgrades = {
         functions: v0props.functions,
         buttonsVisible: v0props.buttonsVisible,
 
-        answerForms: [{
+        answerForms: v0props.answerForms ? v0props.answerForms : [{
             considered: "correct",
             form: v0props.form,
             simplify: v0props.simplify,
